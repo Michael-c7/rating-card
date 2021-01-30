@@ -10,12 +10,79 @@
         <title>Rating card</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
+
+        <article class="rating-card">
+            <h1 class="main-heading">Customer reviews</h1>
+
+            <section class="stars-container">
+                <div class="stars-inner">
+                    <div class="stars">
+                        <!--
+                        full star 
+                            <i class="fa fa-star"></i>
+                        half star
+                            <i class="fa fa-star-half"></i>    
+                        -->
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                    </div>
+                    <div>4.7 out of 5</div>
+                </div>
+                <div class="total-ratings">40 customer ratings</div>
+            </section>
+
+            <section class="rating-scale-container">
+                <ul class="rating-scale">
+                    <li class="rating-scale__item">
+                        <a href="#" class="rating-type">5 stars</a>
+                        <div class="rating-bar">
+                            <div class="rating-bar__fill fill-5-stars"></div>
+                        </div>
+                        <div class="rating-bar-precentage">84%</div>
+                    </li>
+                    <li class="rating-scale__item">
+                        <a href="#">4 stars</a>
+                        <div class="rating-bar">
+                            <div class="rating-bar__fill fill-4-stars"></div>
+                        </div>
+                        <div class="rating-bar-precentage">9%</div>
+                    </li>
+                    <li class="rating-scale__item">
+                        <a href="#">3 stars</a>
+                        <div class="rating-bar">
+                            <div class="rating-bar__fill fill-3-stars"></div>
+                        </div>
+                        <div class="rating-bar-precentage">4%</div>
+                    </li>
+                    <li class="rating-scale__item">
+                        <a href="#">2 stars</a>
+                        <div class="rating-bar">
+                            <div class="rating-bar__fill fill-2-stars"></div>
+                        </div>
+                        <div class="rating-bar-precentage">2%</div>
+                    </li>
+                    <li class="rating-scale__item">
+                        <a href="#">1 stars</a>
+                        <div class="rating-bar">
+                            <div class="rating-bar__fill fill-1-stars"></div>
+                        </div>
+                        <div class="rating-bar-precentage">1%</div>
+                    </li>
+
+                </ul>
+                <a href="#" class="q-calc-text">How do we calculate ratings?</a>
+            </section>
+        </article>
 
     </body>
 </html>
